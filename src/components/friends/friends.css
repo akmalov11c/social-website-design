@@ -1,0 +1,22 @@
+.sidebar__friend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidebar__img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.sidebar__name {
+  cursor: pointer;
+  transition: color 0.4s;
+}
+
+.sidebar__name:hover {
+  color: #a16728;
+}
